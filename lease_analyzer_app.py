@@ -26,7 +26,8 @@ from langchain_core.documents import Document
 
 #from langchain_classic.chains import LLMChain
 #from langchain_classic.agents import AgentExecutor, create_react_agent, Tool
-from langchain_classic.memory import ConversationBufferMemory
+#from langchain_classic.memory import ConversationBufferMemory
+from langchain.memory import ConversationBufferMemory
 from langchain.chains import LLMChain
 from langchain.agents import AgentExecutor, create_react_agent, Tool
 
